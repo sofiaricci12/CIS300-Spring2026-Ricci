@@ -81,3 +81,41 @@ footer {
     justify-content: space-between;
     padding: 15px;
 }
+
+.about-container {
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.headshot-box {
+    width: 300px;
+    border: 1px solid white;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.headshot-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about-text {
+    flex: 1;
+    text-align: left;
+    color: white;
+}
+
+.about-text h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.about-text p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
