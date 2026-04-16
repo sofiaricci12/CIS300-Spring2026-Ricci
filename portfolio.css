@@ -188,31 +188,26 @@ footer {
     background-color: #dddddd;
 }
 
-.exhibitions-page {
-    width: 75%;
-    margin: 50px auto;
+
+.exhibition-table {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
     color: white;
 }
 
-.exhibitions-page h2 {
-    text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 40px;
+.exhibition-table th,
+.exhibition-table td {
+    border: 1px solid white;
+    padding: 12px;
+    text-align: left;
 }
 
-.exhibition-list {
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
+.exhibition-table th {
+    background-color: #111;
+    font-weight: bold;
 }
 
-.exhibition-entry {
-    border-bottom: 1px solid white;
-    padding-bottom: 20px;
-}
-
-.exhibition-entry p {
-    margin: 6px 0;
-    line-height: 1.6;
-    font-size: 1.05em;
+.exhibition-table tr:nth-child(even) {
+    background-color: #1a1a1a;
 }
