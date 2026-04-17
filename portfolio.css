@@ -188,6 +188,16 @@ footer {
     background-color: #dddddd;
 }
 
+.contact-form select {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
 
 .exhibition-table {
     width: 90%;
